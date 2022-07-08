@@ -1,0 +1,8 @@
+// arrays
+
+const notas = [10, 7, 8, 5, 10]
+notas.pop() // pop para remover um dado da array --> passa sem parâmetro e sempre remove o dado da última posição da array
+console.log(notas)
+
+media = (notas[0] + notas[1] + notas[2] + notas[3]) / notas.length
+console.log(`A média é ${media}`)
